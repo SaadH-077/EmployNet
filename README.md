@@ -98,24 +98,74 @@ Manager Approval: Unpaid leave requests are routed to the respective manager for
 ```
 EmployNet/
 ├── UI-Design/
-│   ├── brochure_page1.jpeg
-│   ├── brochure_page2.jpeg
-│   ├── Room_Bookings.jpeg
+│   └── brochure_page1.jpeg
+│   └── brochure_page2.jpeg
+│   └── Room_Bookings.jpeg
 │   └── employee_dashboard.jpeg
-│
-├── employ-net/         # Main frontend app (React)
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-│
-├── .vercel/            # Deployment configs
-├── README.md
-├── LICENSE
-└── EmployNet_Brochure.pdf
+├── employ-net/
+│   ├── client/
+│   │   ├── public/
+│   │   │   └── devsinc_logo.jpeg
+│   │   │   └── favicon-96x96.png
+│   │   │   └── favicon.ico
+│   │   │   └── index.html
+│   │   │   └── logo192.png
+│   │   │   └── logo512.png
+│   │   │   └── manifest.json
+│   │   │   └── robots.txt
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   ├── context/
+│   │   │   ├── layouts/
+│   │   │   ├── pages/
+│   │   │   ├── themes/
+│   │   │   ├── App.css
+│   │   │   ├── App.js
+│   │   │   ├── App.test.js
+│   │   │   ├── index.css
+│   │   │   ├── index.js
+│   │   │   ├── logo.svg
+│   │   │   ├── reportWebVitals.js
+│   │   │   ├── setupTests.js
+│   │   ├── .gitignore
+│   │   ├── dashboard_bg.jpg
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   ├── server/
+│   │   ├── middleware/
+│   │   │   └── verifyCookie.js
+│   │   ├── models/
+│   │   │   └── attendanceModel.js
+│   │   │   └── bookingsModel.js
+│   │   │   └── claimedBenefitsModel.js
+│   │   │   └── employeeModel.js
+│   │   │   └── enrollmentBenefitsModel.js
+│   │   │   └── leaveModel.js
+│   │   │   └── managerModel.js
+│   │   │   └── notificationModel.js
+│   │   │   └── payslipModel.js
+│   │   │   └── roomModel.js
+│   │   │   └── teamModel.js
+│   │   ├── routes/
+│   │   │   └── attendanceRoute.js
+│   │   │   └── authenticationRoute.js
+│   │   │   └── benefitsRoute.js
+│   │   │   └── bookingsRoute.js
+│   │   │   └── employeeRoute.js
+│   │   │   └── leaveRoute.js
+│   │   │   └── managerRoute.js
+│   │   │   └── notificationRoute.js
+│   │   │   └── payslipRoute.js
+│   │   │   └── portal.js
+│   │   │   └── teamRoute.js
+│   │   ├── .gitignore
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── server.js
+│   │   ├── vercel.json
+│   ├── .DS_Store
+│   ├── README.md
+
 ```
 
 ---
